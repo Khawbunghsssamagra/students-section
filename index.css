@@ -125,22 +125,61 @@ body
     background: rgb(0,100,0);
 }
 
+.logoimg {
+    width: 250px;
+    height: 180px;
+    padding-top: 0px;
+}
 
 
+.logoutimg1{
+    width: 21px;
+    height: 22px;
+    padding-top: 5px;
+}
 .logoutimg{
     width: 18px;
     height: 14px;
     padding-top: 4px;
 }
 
+.scroll-head0{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    margin-top: 10px;
+    color:#1f00aa;
+    margin-left: 5px;
+    margin-right: 3px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.scroll-head0 span{
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    padding: 8px 20px ;
+    background: rgb(3, 68, 3);
+    color: #fff;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    font-weight: 600;
+    padding-left: 30px;
+    margin-right: 0px;
+}
+
+.scroll-head0 span a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
 
 .scroll-head {
     display: flex;
     align-items: center;
     background: #1f00aa;
-    margin-top: 120px;
+    margin-top: 0px;
     color: #fff;
-    margin-left: 5px;
+    margin-left: 3px;
     margin-right: 3px;
     padding-right: 5px;
     font-size: 20px;
