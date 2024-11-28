@@ -319,6 +319,37 @@ body.dark .items a{
 }
 
 
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333333;
+}
+
+.loader {
+    width: 140px;
+    height: 140px;
+    border: 15px solid #ccc;
+    border-radius: 50%;
+    border-top: 15px solid orangered;
+    margin: 0 auto;
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
 
 
 @media (max-width: 790px) {

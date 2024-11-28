@@ -126,6 +126,22 @@ siderbarClose.addEventListener("click" , e =>{
 
 <iframe src="https://script.google.com/macros/s/AKfycbx9Y7Rpt45KjJYIYopYiBiGGM8b0z7HT9k1tUZ82iwMfSGmGBvi5-f-gUMQgXoFBnnH/exec" frameborder="0" width="100%" height="100%"></iframe>
 
+<div class="wrapper">
+    <div class="loader"></div>
+</div> 
+<script src="loader.js"></script>
+<script>
+    window.addEventListener("load", function () {
+        var loaderWrapper = document.querySelector(".wrapper");
+        if (loaderWrapper) {
+            loaderWrapper.style.transition = "opacity 0.5s ease";
+            loaderWrapper.style.opacity = "0";
+            setTimeout(function () {
+                loaderWrapper.style.display = "none";
+            }, 500);
+        }
+    });
+</script>
 
 </body>
 </html>
