@@ -516,4 +516,16 @@ body.dark .search-field i{
     body.dark .nav-links li:hover li a{
         color: #FFF;
     }
+    .container2 {
+        font-size: 6px;
+        width: 40em;
+        height: 40em;
+        position: relative;
+        }
+        body.dark .container2 {
+            font-size: 6px;
+            width: 40em;
+            height: 40em;
+            position: relative;
+            }
 }
