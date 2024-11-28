@@ -44,8 +44,8 @@ body.dark .headquote {
 }
 
 
-body.dark .nav-links li:hover li a{
-    background-color: #e4e4e4;
+body.dark .nav-links li:hover li a li{
+    background-color: var(--side-nav);
 }
 
 nav{
@@ -369,5 +369,9 @@ body.dark .search-field i{
 
     .nav-links li:hover li a{
         color: var(--nav-color)
+    }
+
+    body.dark .nav-links li:hover li a{
+        color: #FFF;
     }
 }
