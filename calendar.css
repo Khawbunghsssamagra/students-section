@@ -51,9 +51,15 @@ body.dark .table{
     color: #fff;
 }
 
-
 body.dark .nav-links li:hover li a li{
     background-color: var(--side-nav);
+}
+
+.table1{
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 5px;
+    justify-items: center;
 }
 
 nav{
@@ -535,7 +541,7 @@ body.dark .search-field i{
             width: 40em;
             height: 40em;
             position: relative;
-            }
+            }    
 }
 
 
